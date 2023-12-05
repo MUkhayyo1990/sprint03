@@ -4,7 +4,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-        //tags ="",
+        tags =" @Econsent",
         features = "src/test/resources/features",
         glue = "stepDefinitions",
         publish = true,
